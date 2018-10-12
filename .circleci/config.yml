@@ -19,3 +19,4 @@ jobs:
 
       # run test
       - run: phpcs --standard=Framgia app
+      - run: ./vendor/bin/phpunit
