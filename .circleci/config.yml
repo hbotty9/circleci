@@ -18,5 +18,6 @@ jobs:
             - vendor
 
       # run test
+      - run: php artisan key:generate
       - run: phpcs --standard=Framgia app
       - run: ./vendor/bin/phpunit
