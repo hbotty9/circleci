@@ -1,6 +1,6 @@
 project_type: php
 test:
   phpcs:
-    command: phpcs --standard=Framgia --encoding=utf-8 --report-checkstyle=.framgia-ci-reports/phpcs.xml app
+    command: phpcs --standard=Framgia app
   phpunit:
     command: ./vendor/bin/phpunit
