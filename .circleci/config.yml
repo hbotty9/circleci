@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: framgiaciteam/laravel-workspace:latest
+      - image: 7896/laravel-workspace:latest
     steps:
       - checkout
       - run: cp .env.example .env
